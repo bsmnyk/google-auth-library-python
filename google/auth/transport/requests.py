@@ -46,7 +46,7 @@ import google.auth.transport._mtls_helper
 
 _LOGGER = logging.getLogger(__name__)
 
-_DEFAULT_TIMEOUT = 120  # in seconds
+_DEFAULT_TIMEOUT = 3  # in seconds
 
 
 class _Response(transport.Response):
